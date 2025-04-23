@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.GlobalStyles=void 0;var _reactNative=require("react-native");var GlobalStyles=exports.GlobalStyles=_reactNative.StyleSheet.create({container:{flex:1,padding:16},text:{fontSize:16,color:"#333"},button:{backgroundColor:"#007AFF",padding:10,borderRadius:5,alignItems:"center"}});

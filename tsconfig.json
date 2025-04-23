@@ -1,0 +1,23 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "declaration": true,
+    "composite": true,
+    "strict": true,
+    "jsx": "react-native",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "types": ["react-native"],
+    "lib": ["es6", "dom"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "my-react-native-library": ["./dist/index"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "example"]
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": ["react-native"],
+    "lib": ["es6"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "my-react-native-library": ["../dist"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
