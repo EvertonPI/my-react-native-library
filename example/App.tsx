@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button } from "my-react-native-library";
+import { Button } from "my-react-native-everton";
 import { View } from "react-native";
 
 export default function App() {

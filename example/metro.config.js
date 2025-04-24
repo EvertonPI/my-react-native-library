@@ -17,7 +17,7 @@ config.resolver = {
   ],
 };
 config.resolver.resolveRequest = (context, realModuleName, platform) => {
-  if (realModuleName.startsWith("my-react-native-library")) {
+  if (realModuleName.startsWith("my-react-native-everton")) {
     return {
       filePath: path.resolve(__dirname, "../src/index.ts"),
       type: "sourceFile",

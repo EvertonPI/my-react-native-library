@@ -1,5 +1,5 @@
 {
-  "name": "my-react-native-library",
+  "name": "my-react-native-everton",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "src/types.d.ts",
